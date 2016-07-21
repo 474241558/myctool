@@ -1,5 +1,5 @@
-main:main.cpp platform.h
-	g++ main.cpp -o main
+myctool:main.cpp platform.h
+	g++ main.cpp -o ../release/myctool
 
 clean:
-	rm main
+	rm myctool
